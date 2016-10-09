@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/item1">
+        <item android:title="group_1">
+            <menu>
+                <item
+                    android:id="@+id/favorite"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="收藏"/>
+                <item
+                    android:id="@+id/like"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="喜欢"/>
+            </menu>
+        </item>
+    </group>
+
+
+    <item android:title="group_2">
+        <menu>
+            <item
+                android:id="@+id/wallet"
+                android:icon="@mipmap/ic_launcher"
+                android:title="钱包"/>
+            <item
+                android:id="@+id/figure"
+                android:icon="@mipmap/ic_launcher"
+                android:title="余额"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_3">
+        <item android:title="group_3">
+            <menu>
+                <item
+                    android:id="@+id/photo"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="相册"/>
+                <item
+                    android:id="@+id/file"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="文件"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
+
+<!--
+    group是用分割线将item分为几个部分
+    item可以将多个item分类
+
+-->
